@@ -10298,6 +10298,84 @@ Catalyst (Aura): While an enemy unit is within 6&quot; of this unit, each time a
                 <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Eye of Malice" hidden="false" id="92e7-2ebf-ee7e-7db7">
+              <categoryLinks>
+                <categoryLink targetId="5455-1687-f81e-b3c5" id="3b85-e37b-4f86-4f43" primary="false" name="Reductus Saboteur"/>
+              </categoryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="538e-aa5e-171b-1a7f" includeChildSelections="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="2"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="The Eye of Malice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a3b7-1d15-d4e8-b4ae">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If your Crusade army includes Shrewd Strategy abilities, then the bearer can be given the Booby Traps Shrewd Strategy ability for 0 Planning points. 
+In addition, when the bearer sabotages an objective marker, each time an enemy unit ends a Normal, Advance, Fall Back or Charge move within range of that objective marker, roll one D6: on a 2+, that enemy unit suffers D3+3 mortal wounds, instead of D3.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Gift From Beyond" hidden="false" id="8c13-cc9f-880b-9854">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="2"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+              <categoryLinks>
+                <categoryLink targetId="7eca-eb86-84bd-c846" id="86b5-b776-37c5-5627" primary="false" name="Sanctus"/>
+                <categoryLink targetId="d1ae-4000-bdd2-333b" id="a058-df5a-e541-72fb" primary="false" name="Jackal Alphus"/>
+              </categoryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f15e-c551-907f-013d" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="The Gift From Beyond" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1232-5025-42c6-3273">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Select one ranged weapon equipped by the bearer (excluding a weapon that has been replaced by an Enhancement or Crusade Relic, or upgraded with any Battle Traits). 
+That weapon is now a Crusade Relic; note this on the bearer&apos;s Crusade card. That weapon gains the Anti-Character 4+ and Devastating Wounds abilities.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Voice of the Liberator" hidden="false" id="6e16-3af1-49d8-0833">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="2"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+              <categoryLinks>
+                <categoryLink targetId="e90-a1ac-e276-9652" id="d361-2511-886a-0135" primary="false" name="Clamavus"/>
+              </categoryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0362-3bda-5e5a-2e5d" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Voice of the Liberator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="03a1-0b0a-8ace-20cf">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit takes a battle-shock test as a result of the bearer&apos;s Voice of New Truths ability, subtract 1 from that test and, if that test is failed, that enemy unit suffers 3 mortal wounds.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Legendary Relics" id="9986-5e12-7ab8-d53c" hidden="false" sortIndex="3">
@@ -10388,6 +10466,31 @@ Catalyst (Aura): While an enemy unit is within 6&quot; of this unit, each time a
                 <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
                 <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cogniscator of Ascension" hidden="false" id="d804-ed75-3f66-5c7a">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="3"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+              <categoryLinks>
+                <categoryLink targetId="3253-f6f5-2121-8a2f" id="1c3f-88b8-4bb8-9d9e" primary="false" name="Primus"/>
+              </categoryLinks>
+              <profiles>
+                <profile name="Cogniscator of Ascension" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9f57-9f91-d1b7-e0a6">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the bearer is selected to be your Strategist, you gain an additional 3 Planning points to spend on Shrewd Strategy abilities. Any Planning points not spent by the end of the Select Crusade Blessings step are not lost - instead, each time a new Genestealer Cults unit is added to your Crusade army via the Cult Ambush rule, you can spend any remaining  Planning points to purchase a Shrewd Strategy ability for that new unit before it is set up on the battlefield. Any Planning points not spent by the end of the battle are lost.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7dcc-aad7-77e7-45de" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -10540,6 +10643,102 @@ Add 3&quot; to the bearer&apos;s Move characteristic, and the bearer gains the f
                     <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Patriarch^^** or **^^Magus^^** model only. The bearer can
 use its Psychic Familiar ability one additional time
 during the battle (this must be in different turns).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sword of the Void&apos;s Eye" hidden="false" id="eac2-ba77-abf4-7772">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+              <categoryLinks>
+                <categoryLink targetId="dfde-688d-75b8-77bb" id="1d7a-aef8-668c-2596" primary="false" name="Locus"/>
+                <categoryLink targetId="3253-f6f5-2121-8a2f" id="6e70-32be-7a5b-4a3e" primary="false" name="Primus"/>
+              </categoryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="24ef-c9d3-2e00-1345" includeChildSelections="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Sword of the Void&apos;s Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3c69-fe16-9ca5-d779">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Select one weapon equipped by the bearer (excluding a weapon that has been replaced by an Enhancement or Crusade Relic, or upgraded with any Battle Traits).
+That weapon is now a Crusade Relic; note this on the bearer&apos;s Crusade card. 
+That weapon has the Lethal Hits ability, and each time the bearer makes an attack with that weapon, you can re-roll the Hit roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stratodais" hidden="false" id="f7b1-c39e-1640-630a">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Stratodais" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8517-847a-845e-f07b">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer uses its Cult Infiltration ability, you can select up to two of your Cult Ambush markers that are on the battlefield instead of selecting one; 
+each marker selected that has not been moved this turn can be moved up to 6&quot;</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink targetId="8b0d-31c9-98a2-8430" id="29e9-8a21-5fa9-8299" primary="false" name="Nexos"/>
+              </categoryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="75a7-283b-a6ca-9272" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Unwilling Orb" hidden="false" id="48ba-900c-0992-29bc">
+              <profiles>
+                <profile name="The Unwilling Orb" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="42eb-3850-a3c2-98d5">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer&apos;s ranged Psychic weapons have the Devastating Wounds ability and the
+Range characteristic of those weapons is increased
+by 6&quot;.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink targetId="2c56-6d8a-3aca-5441" id="79c3-5f39-a43e-a7fe" primary="false" name="Benefictus"/>
+              </categoryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4b96-f989-c395-274b" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wyrmtooth Rounds" hidden="false" id="2e91-8fa1-2a69-7876">
+              <categoryLinks>
+                <categoryLink targetId="33d4-a80e-ecc-e821" id="2f8b-d1de-a336-1288" primary="false" name="Kelermorph"/>
+              </categoryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="12d2-9335-a900-081c" includeChildSelections="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="1"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="1"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+                <cost name="Logistics Points" typeId="04b1-67f7-48cb-4f1f" value="0"/>
+                <cost name="Commendation Points" typeId="e969-59de-fdb7-7c4e" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="New Entry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c0e7-0ce5-5f1c-5157">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, in your Shooting phase, after this unit has shot, select one enemy unit (excluding Vehicles) hit by one or more of those attacks. Until the end of the battle, that  enemy unit is poisoned. At the start of each Command phase, roll one D6 for each poisoned unit on the battlefield: on a 4+, that unit suffers D3 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
